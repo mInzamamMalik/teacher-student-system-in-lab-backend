@@ -56,7 +56,7 @@ app.post("/login", function (req, res) {
         });
     } else {
         res.json({
-            status: "unable to login"
+            status: "Email or Password not matched"
         })
     }
 });
